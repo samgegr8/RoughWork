@@ -18,6 +18,9 @@ class Car:
         """Simulate Driving"""
         print("Car is driving")
 
+    def age(self):
+        return "2020 - " + self.year
+
 
 my_car = Car("audi", "a4", "2016")
 print(my_car.make)
@@ -26,3 +29,4 @@ print(my_car.year)
 
 my_car.fill_tank()
 my_car.drive()
+print(my_car.age())
